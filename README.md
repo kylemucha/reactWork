@@ -1,3 +1,3 @@
-#projects i built to learn react
+# projects i built to learn react
 
 - React Facts
