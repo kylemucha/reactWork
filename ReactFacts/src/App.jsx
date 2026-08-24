@@ -1,5 +1,11 @@
+import Main from "./components/Main"
+import Navbar from "./components/Navbar"
+
 export default function App() {
   return(
+    <>
+    <Navbar />
+    <Main />
     <main>
       <img className="react-logo" src="src/pictures/react-logo.png"></img>
       <h1>Fun Facts about React</h1>
@@ -11,5 +17,6 @@ export default function App() {
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
     </main>
+    </>
   )
 }
