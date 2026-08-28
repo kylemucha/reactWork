@@ -6,7 +6,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
-    color: white;
+    background-color: #282D35;
+    color: #FFFFFF;
 }
 
 header {
@@ -14,9 +15,32 @@ header {
     background-color: #21222A;
     padding: 30px 25px;
     color: #61DAFB;
+    margin-bottom: 52px;
 }
 
-h1 {
+main {
+    margin-left: 27px;
+    position: relative;
+}
+
+main > h1 {
+    font-size: 2.4rem;
+}
+
+main > ul {
+    font-size: 1rem;
+}
+
+ul > li {
+    margin-bottom: 20.36px;
+}
+
+ul > li::marker {
+    color: #61DAFB;
+    font-size: 1.5rem;
+}
+
+.react-facts-title {
     font-size: 1.4rem;
 }
 
@@ -29,4 +53,12 @@ h1 {
 .react-logo {
     width: 27.69px;
     margin-right: 7px;
+}
+
+.half-react-logo {
+    width: 150px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
