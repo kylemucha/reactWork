@@ -1,5 +1,8 @@
 export default function Info () {
     return (
-        <h1>Info</h1>
+        <header>
+            <img className="headshot" src="src/pictures/kylemucha-headshot.png" />
+            <h1>Kyle Mucha</h1>
+        </header>
     )
 }
