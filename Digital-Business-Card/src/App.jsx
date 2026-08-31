@@ -5,11 +5,11 @@ import Footer from "./components/Footer.jsx"
 
 export default function App () {
     return (
-        <>
+        <main className="card">
             <Info />
             <About />
             <Interests />
             <Footer />
-        </>
+        </main>
     )
 }
