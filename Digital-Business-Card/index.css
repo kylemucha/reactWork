@@ -21,9 +21,30 @@ h1 {
     margin-bottom: 0;
 }
 
+h2 {
+    color: #F5F5F5;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p {
+    margin-top: 5px;
+    color: #DCDCDC;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+footer {
+    display: flex;
+    background-color: #161619;
+    padding: 19.5px 0;
+    justify-content: center;
+}
+
 .card {
     width: 317px;
-    margin: 44px auto 0;
+    margin: 44px auto 44px;
     background-color: #1A1B21;
     border-radius: 12px;
     overflow: hidden;
@@ -36,7 +57,7 @@ h1 {
 .job-title {
     color: #F3BF99;
     font-size: 12.8px;
-    margin-top: 6.19px;
+    margin-top: 0px;
     margin-bottom: 0;
     font-size: 12.8px;
 }
@@ -54,6 +75,7 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 17px;
+    margin-bottom: 0;
 }
 
 .button {
@@ -67,4 +89,29 @@ h1 {
 .button img {
     display: block;
     width: 100%;
+}
+
+.about-section {
+    display: flex;
+    margin: 36px;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.interests-section {
+    display: flex;
+    margin: 36px;
+    margin-top: 2px;
+    flex-direction: column;
+}
+
+.social-icon {
+    /* display: block; */
+    width: 25px;
+}
+
+.social-icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 23.5px;
 }

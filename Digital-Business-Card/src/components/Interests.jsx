@@ -1,5 +1,13 @@
 export default function Interests () {
     return (
-        <h2>Interests</h2>
+        <div className="interests-section">
+            <h2>Interests</h2>
+            <p>Marvel movie watcher. 
+                Theme park connoisseur. 
+                Valorant Professional Wannabe. 
+                Car Mechanic hobbyist. 
+                Basketball player. 
+                Cat, dog, and Girlfriend lover.</p>
+        </div>
     )
 }
