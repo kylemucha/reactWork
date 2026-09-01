@@ -1,3 +1,23 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #F55A5A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-globe {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+}
