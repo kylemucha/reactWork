@@ -14,10 +14,59 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 45px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+span {
+    font-size: 10.24px;
+}
+
+a {
+    font-size: 10.24px;
+    margin-left: 12px;
+    margin-bottom: 0;
+    color: #918E9B;
 }
 
 .header-globe {
     width: 24px;
     height: 24px;
     margin-right: 4px;
+}
+
+.location-entry {
+    display: flex;
+}
+
+.location-marker {
+    width: 6px;
+    margin-right: 4px;
+}
+
+.location-picture {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.location-information {
+    margin-left: 19px;
+}
+
+.location-dates {
+    font-weight: bold;
+    font-size: 10.24px;
+    margin-top: 17px;
+}
+
+.location-description {
+    font-size: 10.24px;
+    color: #2B283A;
 }
