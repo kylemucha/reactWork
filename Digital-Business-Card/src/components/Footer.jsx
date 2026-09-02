@@ -8,16 +8,16 @@ export default function Footer () {
         <footer>
             <div className="social-icon-container">
                 <a href="https://x.com/" target="_blank">
-                    <img className="social-icon" src={twitter}></img>
+                    <img className="social-icon" src={twitter} alt="Twitter or X Icon"></img>
                 </a>
                 <a href="https://facebook.com/" target="_blank">
-                    <img className="social-icon" src={facebook}></img>
+                    <img className="social-icon" src={facebook} alt ="Facebook or Meta Icon"></img>
                 </a>
                 <a href="https://instagram.com/" target="_blank">
-                    <img className="social-icon" src={instagram}></img>
+                    <img className="social-icon" src={instagram} alt="Instagram Icon"></img>
                 </a>
                 <a href="https://github.com/" target="_blank">
-                    <img className="social-icon" src={github}></img>
+                    <img className="social-icon" src={github} alt="Github Icon"></img>
                 </a>
             </div>
         </footer>
