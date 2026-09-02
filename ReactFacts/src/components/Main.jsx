@@ -9,7 +9,7 @@ export default function Main() {
                 <li>Is maintained by Meta</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
-            <img className="half-react-logo" src="src/pictures/half-react-logo.png"/>
+            <img className="half-react-logo" src="src/pictures/half-react-logo.png" alt="React Logo cut in Half"/>
         </main>
     )
 }
