@@ -12,10 +12,10 @@ export default function Info () {
             </header>
             <div className="button-row">
                 <a className="button" href="mailto:kylemuchaswe@gmail.com">
-                        <img src={emailButton}></img>
+                        <img src={emailButton} alt="Button to Email"></img>
                 </a>
                 <a className="button" href="https://www.linkedin.com/in/kylemuchaa/" target="_blank">
-                        <img src={linkedinButton}></img>
+                        <img src={linkedinButton} alt="Button to lead to Linkedin"></img>
                 </a>
             </div>
         </>
