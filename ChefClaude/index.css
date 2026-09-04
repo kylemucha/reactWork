@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+    height: 111px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 350;
+}
+
+.chef-claude-icon {
+    width: 43px;
+    margin-right: 11px;
+}
