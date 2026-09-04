@@ -8,6 +8,7 @@ export default function App () {
     return (
     <>
       <Entry 
+      key={location.id}
       img={location.img}
       title={location.title}
       country={location.country}
