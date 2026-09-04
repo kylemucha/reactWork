@@ -7,6 +7,5 @@ export default function App () {
             <Header />
             <Main />
         </>
-
     )
 }
