@@ -42,6 +42,7 @@ a {
 
 .location-entry {
     display: flex;
+    margin-bottom: 36px;
 }
 
 .location-marker {
@@ -70,4 +71,11 @@ a {
     font-size: 10.24px;
     color: #2B283A;
     line-height: 150%;
+}
+
+.split {
+    border: none;
+    border-top: 1px solid #F5F5F5;
+    margin-bottom: 36px;
+    margin: 40px;
 }
