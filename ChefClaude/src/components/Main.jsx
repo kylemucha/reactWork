@@ -1,6 +1,6 @@
 export default function Main () {
 
-    const ingredients = ["banana", "apple"]
+    const ingredients = ["banana", "apple", "jacks"]
 
     const ingredientsList = ingredients.map((ing) => 
         <li key={ing}>{ing}</li>
