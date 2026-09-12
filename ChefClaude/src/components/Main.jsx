@@ -7,19 +7,19 @@ export default function Main () {
         <li key={ing}>{ing}</li>
     ))
 
-    //function to add new ingredients to array of ingredients
+    /**
+     * Challenge: use form action instead of onSubmit to
+     * handle the data from the form
+     */
 
-    function handleSubmit(event) {
-        event.preventDefault();
-        const formData = new FormData(event.currentTarget)
+    function addIngredient(formData) {
         const newIngredient = formData.get("ingredient")
-        setIngredients(prevIngredients => [...prevIngredients, newIngredient])
-        event.target.reset();
+        setIngredients(prevIngredient => [...prevIngredient, newIngredient])
     }
 
     return (
         <div className="main-content">
-            <form onSubmit={handleSubmit}>
+            <form action={addIngredient}>
                 <input 
                     name="ingredient" 
                     type="text"
