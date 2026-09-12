@@ -7,6 +7,8 @@ export default function Main () {
         <li key={ing}>{ing}</li>
     ))
 
+    //function to add new ingredients to array of ingredients
+
     function handleSubmit(event) {
         event.preventDefault();
         const formData = new FormData(event.currentTarget)
