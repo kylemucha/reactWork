@@ -7,11 +7,6 @@ export default function Main () {
         <li key={ing}>{ing}</li>
     ))
 
-    /**
-     * Challenge: use form action instead of onSubmit to
-     * handle the data from the form
-     */
-
     function addIngredient(formData) {
         const newIngredient = formData.get("ingredient")
         setIngredients(prevIngredient => [...prevIngredient, newIngredient])
