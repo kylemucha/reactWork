@@ -7,6 +7,8 @@ export default function Main () {
         <li key={ing}>{ing}</li>
     ))
 
+
+    //handle getting form data to add new ingredient to array
     function addIngredient(formData) {
         const newIngredient = formData.get("ingredient")
         setIngredients(prevIngredient => [...prevIngredient, newIngredient])
