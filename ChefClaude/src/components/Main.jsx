@@ -8,7 +8,7 @@ export default function Main () {
     ))
 
 
-    //handle getting form data to add new ingredient to array
+    //handles getting form data from user input to add new ingredient to array of ingredients
     function addIngredient(formData) {
         const newIngredient = formData.get("ingredient")
         setIngredients(prevIngredient => [...prevIngredient, newIngredient])
