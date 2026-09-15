@@ -7,8 +7,7 @@ export default function Main () {
         <li key={ing}>{ing}</li>
     ))
 
-
-    //handles getting form data from user input to add new ingredient to array of ingredients
+    // Handles getting form data from user input to add new ingredient to array of ingredients
     function addIngredient(formData) {
         const newIngredient = formData.get("ingredient")
         setIngredients(prevIngredient => [...prevIngredient, newIngredient])
