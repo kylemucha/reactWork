@@ -14,6 +14,8 @@ export default function Main() {
     setIngredients((prevIngredient) => [...prevIngredient, newIngredient]);
   }
 
+  // form action really helpful here to getting form data
+
   return (
     <div className="main-content">
       <form action={addIngredient}>
