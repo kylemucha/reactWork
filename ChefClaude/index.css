@@ -81,3 +81,38 @@ h2 {
     color: white;
     cursor: pointer;
 }
+
+.generate-recipe-section {
+    background-color: #F0EFEB;
+    display: flex;
+    border-radius: 10px;
+    width: 594px;
+    height: 109px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.generate-recipe-text {
+    line-height: 12px;
+}
+
+.generate-recipe-toptext {
+    font-weight: 500;
+}
+
+.generate-recipe-bottomtext {
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.generate-recipe-button {
+    border: none;
+    background: none;
+    background-color: #D17557;
+    color: white;
+    border-radius: 5px;
+    width: 115px;
+    height: 38px;
+    cursor: pointer;
+}

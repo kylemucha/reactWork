@@ -27,10 +27,12 @@ export default function Main() {
       </form>
       <h2>Ingredients on Hand:</h2>
       <ul>{ingredientsList}</ul>
-      {ingredients.length > 0 ? <section>
-        <p>Ready for a recipe?</p>
-        <p>Generate a recipe from your list of ingredients.</p>
-        <button>Generate a recipe</button>
+      {ingredients.length > 0 ? <section className="generate-recipe-section">
+        <div className="generate-recipe-text">
+          <p className="generate-recipe-toptext">Ready for a recipe?</p>
+          <p className="generate-recipe-bottomtext">Generate a recipe from your list of ingredients.</p>
+        </div>
+          <button className="generate-recipe-button">Get a recipe</button>
       </section> : null}
     </div>
   );
