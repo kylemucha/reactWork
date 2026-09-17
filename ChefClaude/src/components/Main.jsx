@@ -25,15 +25,21 @@ export default function Main() {
           + Add Ingredient
         </button>
       </form>
-      <h2>Ingredients on Hand:</h2>
-      <ul>{ingredientsList}</ul>
-      {ingredients.length > 0 ? <section className="generate-recipe-section">
-        <div className="generate-recipe-text">
-          <p className="generate-recipe-toptext">Ready for a recipe?</p>
-          <p className="generate-recipe-bottomtext">Generate a recipe from your list of ingredients.</p>
-        </div>
+      {ingredients.length > 0 ? <div>
+        <h2>Ingredients on Hand:</h2>
+        <ul>{ingredientsList}</ul>
+      </div> : null}
+      {ingredients.length > 3 ? (
+        <section className="generate-recipe-section">
+          <div className="generate-recipe-text">
+            <p className="generate-recipe-toptext">Ready for a recipe?</p>
+            <p className="generate-recipe-bottomtext">
+              Generate a recipe from your list of ingredients.
+            </p>
+          </div>
           <button className="generate-recipe-button">Get a recipe</button>
-      </section> : null}
+        </section>
+      ) : null}
     </div>
   );
 }
