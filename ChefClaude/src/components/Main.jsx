@@ -12,7 +12,7 @@ export default function Main() {
   }
 
 
-  //function handles flipping the boolean which handles showing the recipe
+  //function handles flipping the boolean which handles showing the recipe (temporary before adding Anthropic API functionality)
   function generateRecipe() {
     setRecipeShown(prevRecipeShown => !prevRecipeShown)
   }
