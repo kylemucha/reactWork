@@ -50,6 +50,8 @@ export default function Main() {
       {recipeShown ? <section>
         <h2>Chef Claude Recommends:</h2>
         <article className="suggested-recipe-container" aria-live="polite">
+
+          // sample recipe shown below and will replace once Anthropic API functionality is setup
           <p>
             Based on the ingredients you have available, I would recommend
             making a simple a delicious <strong>Beef Bolognese Pasta</strong>.
