@@ -1,5 +1,5 @@
-import React from "react"
-import ClaudeRecipe from "./ClaudeRecipe"
+import React from "react";
+import ClaudeRecipe from "./ClaudeRecipe";
 import IngredientsList from "./IngredientsList";
 export default function Main() {
   const [recipeShown, setRecipeShown] = React.useState(false);
@@ -13,7 +13,7 @@ export default function Main() {
 
   return (
     <div className="main-content">
-      <IngredientsList generateRecipe={generateRecipe}/>
+      <IngredientsList generateRecipe={generateRecipe} />
       {recipeShown ? (
         <section>
           <h2>Chef Claude Recommends:</h2>

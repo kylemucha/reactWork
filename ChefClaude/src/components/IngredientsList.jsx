@@ -1,7 +1,5 @@
-import React from "react"
+import React from "react";
 export default function IngredientsList(props) {
-
-
   const [ingredients, setIngredients] = React.useState([]);
   const ingredientsList = ingredients.map((ing) => <li key={ing}>{ing}</li>);
 
@@ -37,7 +35,10 @@ export default function IngredientsList(props) {
               Generate a recipe from your list of ingredients.
             </p>
           </div>
-          <button onClick={props.generateRecipe} className="generate-recipe-button">
+          <button
+            onClick={props.generateRecipe}
+            className="generate-recipe-button"
+          >
             Get a recipe
           </button>
         </section>
