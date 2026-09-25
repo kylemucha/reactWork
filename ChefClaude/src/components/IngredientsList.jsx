@@ -1,33 +1,17 @@
 import React from "react";
 export default function IngredientsList(props) {
-  const [ingredients, setIngredients] = React.useState([]);
-  const ingredientsList = ingredients.map((ing) => <li key={ing}>{ing}</li>);
 
-  function addIngredient(formData) {
-    const newIngredient = formData.get("ingredient");
-    setIngredients((prevIngredient) => [...prevIngredient, newIngredient]);
-  }
+  const ingredientsList = props.ingredients.map((ing) => <li key={ing}>{ing}</li>);
 
   return (
     <div>
-      <form action={addIngredient}>
-        <input
-          name="ingredient"
-          type="text"
-          placeholder="e.g. oregano"
-          aria-label="Add ingredient"
-        />
-        <button className="add-ingredient-button" type="submit">
-          + Add Ingredient
-        </button>
-      </form>
-      {ingredients.length > 0 ? (
+      {props.ingredients.length > 0 ? (
         <div>
           <h2>Ingredients on Hand:</h2>
           <ul>{ingredientsList}</ul>
         </div>
       ) : undefined}
-      {ingredients.length > 3 ? (
+      {props.ingredients.length > 3 ? (
         <section className="generate-recipe-section">
           <div className="generate-recipe-text">
             <p className="generate-recipe-toptext">Ready for a recipe?</p>

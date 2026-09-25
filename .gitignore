@@ -1,5 +1,6 @@
 node_modules/
 dist/
+# Environment variables / API keys
 .env
-.env.local
+.env.*
 .DS_Store

@@ -34,10 +34,6 @@ input {
     padding-left: 13px;
 }
 
-input::placeholder {
-    padding-left: 13px;
-}
-
 input:focus::placeholder {
     color: transparent;
 }
